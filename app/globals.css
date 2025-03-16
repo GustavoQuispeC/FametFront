@@ -1,2 +1,8 @@
 @import "tailwindcss";
 
+/* Asegurar que Tailwind no sobrescriba la fuente */
+
+html,
+body {
+  font-family: var(--font-roboto), sans-serif !important;
+}

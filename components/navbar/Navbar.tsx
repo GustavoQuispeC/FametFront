@@ -44,17 +44,17 @@ export const NavbarComponent = () => {
           </ul>
         </div>
         {/* <a className="btn btn-ghost text-xl">Grupo</a> */}
-        <img src="/LogoFamet.jpg" className="w-40 h-15" />
+        <img src="/LogoFamet.jpg" className="w-40 h-12" />
       </div>
       <div className="navbar-center hidden lg:flex text-blue-800">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <a>Inicio</a>
           </li>
           <li>
             <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
+              <summary>Quienes somos</summary>
+              <ul className="p-2 bg-white">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -65,16 +65,16 @@ export const NavbarComponent = () => {
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Productos</a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end ">
         <div className="flex gap-2">
           <input
             type="text"
-            placeholder="Search"
-            className="input input-bordered w-24 md:w-auto"
+            placeholder="Buscar"
+            className="input input-bordered w-24 md:w-auto  bg-base-100"
           />
           <div className="dropdown dropdown-end">
             <div
@@ -103,7 +103,7 @@ export const NavbarComponent = () => {
                 <a>Settings</a>
               </li>
               <li>
-                <a>Logout</a>
+                <a>Salir</a>
               </li>
             </ul>
           </div>

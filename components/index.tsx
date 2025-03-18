@@ -1,5 +1,6 @@
-import { Carousel } from './Carousel/Carousel';
+import { Carousel } from "./Carousel/Carousel";
 export { Navbar } from "./navbar/Navbar";
-export {Carousel}
+export { Carousel };
 
 export * from "./footer/Footer";
+export * from "./slide/Slide";

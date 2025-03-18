@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import Box from "@mui/material/Box";
 
 export const Footer = () => {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-blue-100">
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
           {/* 1st block */}
@@ -13,33 +14,16 @@ export const Footer = () => {
             <div className="mb-2">
               {/* Logo */}
               <Link href="/" className="inline-block" aria-label="Cruip">
-                <svg
-                  className="w-8 h-8"
-                  viewBox="0 0 32 32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <radialGradient
-                      cx="21.152%"
-                      cy="86.063%"
-                      fx="21.152%"
-                      fy="86.063%"
-                      r="79.941%"
-                      id="footer-logo"
-                    >
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect
-                    width="32"
-                    height="32"
-                    rx="16"
-                    fill="url(#footer-logo)"
-                    fillRule="nonzero"
-                  />
-                </svg>
+                <Box
+                  component="img"
+                  sx={{
+                    height: 64,
+                    display: { xs: "none", md: "flex" },
+                    mr: 1,
+                  }}
+                  alt="Logo"
+                  src="/logoFamet.png"
+                />
               </Link>
             </div>
             <div className="text-sm text-gray-600">
@@ -303,14 +287,14 @@ export const Footer = () => {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            Made by{" "}
+            Desarrollado por{" "}
             <a
               className="text-blue-600 hover:underline"
-              href="https://cruip.com/"
+              href="https://www.gustavo-dev.com/"
             >
-              Cruip
+              gustavo-dev
             </a>
-            . All rights reserved.
+            . Todos los derechos reservados.
           </div>
         </div>
       </div>

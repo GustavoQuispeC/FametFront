@@ -8,9 +8,9 @@ export const Carousel = () => {
 
       <div className="text-center p-10">
         <h1 className="font-bold text-4xl mb-4">
-          Responsive Product card grid
+          Tenemos los mejores productos para tu construcción
         </h1>
-        <h1 className="text-3xl">Tailwind CSS</h1>
+        <h1 className="text-3xl">Cotiza ahora</h1>
       </div>
 
       {/* <!-- ✅ Grid Section - Starts Here 👇 --> */}
@@ -20,24 +20,26 @@ export const Carousel = () => {
       >
         <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
           <a href="#">
-            <img
+            <Image
               src="/cemento_tipo1.jpg"
               alt="Product"
               className="h-80 w-72 object-cover rounded-t-xl"
+              width={72}
+              height={80}
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                Brand
+                Pacasmayo
               </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
                 Cemento Tipo 1
               </p>
               <div className="flex items-center">
                 <p className="text-lg font-semibold text-black cursor-auto my-3">
-                  $149
+                  S/33.50
                 </p>
                 <del>
-                  <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                  <p className="text-sm text-gray-600 cursor-auto ml-2">S/35.00</p>
                 </del>
                 <div className="ml-auto">
                   <svg
@@ -65,22 +67,22 @@ export const Carousel = () => {
               src="/fierro1_2.jpg"
               alt="Product"
               className="h-80 w-72 object-cover rounded-t-xl"
-              height={80}
               width={72}
+              height={80}
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                Brand
+                Sider Peru
               </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
-                Cemento Tipo 1
+                Fierro 1/2
               </p>
               <div className="flex items-center">
                 <p className="text-lg font-semibold text-black cursor-auto my-3">
-                  $149
+                 S/22.6
                 </p>
                 <del>
-                  <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                  <p className="text-sm text-gray-600 cursor-auto ml-2">S/25.3</p>
                 </del>
                 <div className="ml-auto">
                   <svg
@@ -104,24 +106,26 @@ export const Carousel = () => {
         </div>
         <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
           <a href="#">
-            <img
+            <Image
               src="/ladrillo lark.png"
               alt="Product"
               className="h-80 w-72 object-cover rounded-t-xl"
+              width={72}
+              height={80}
             />
             <div className="px-4 py-3 w-72">
               <span className="text-gray-400 mr-3 uppercase text-xs">
-                Brand
+                Lark
               </span>
               <p className="text-lg font-bold text-black truncate block capitalize">
-                ladrillo lark
+                ladrillo 18 huecos
               </p>
               <div className="flex items-center">
                 <p className="text-lg font-semibold text-black cursor-auto my-3">
-                  $149
+                  S/1.30
                 </p>
                 <del>
-                  <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                  <p className="text-sm text-gray-600 cursor-auto ml-2">S/1.50</p>
                 </del>
                 <div className="ml-auto">
                   <svg
